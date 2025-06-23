@@ -3,6 +3,7 @@ module app
 go 1.24.3
 
 require (
+	github.com/oklog/ulid/v2 v2.1.1
 	github.com/uptrace/bun v1.2.14
 	github.com/uptrace/bun/dialect/sqlitedialect v1.2.14
 	github.com/uptrace/bun/driver/sqliteshim v1.2.14
